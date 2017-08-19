@@ -1,0 +1,60 @@
+
+Using stack to validate an infix expression
+
+Push a symbol onto the stack: {
+>>>Examine extracted symbol: x
+>>>Examine extracted symbol: +
+Push a symbol onto the stack: (
+>>>Examine extracted symbol: y
+>>>Examine extracted symbol: -
+Push a symbol onto the stack: [
+>>>Examine extracted symbol: a
+>>>Examine extracted symbol: +
+>>>Examine extracted symbol: b
+>>>Examine extracted symbol: ]
+Pop a symbol off the stack: [
+>>>Examine extracted symbol: )
+Pop a symbol off the stack: (
+>>>Examine extracted symbol: *
+>>>Examine extracted symbol: c
+>>>Examine extracted symbol: -
+Push a symbol onto the stack: [
+Push a symbol onto the stack: (
+>>>Examine extracted symbol: d
+>>>Examine extracted symbol: +
+>>>Examine extracted symbol: e
+>>>Examine extracted symbol: )
+Pop a symbol off the stack: (
+>>>Examine extracted symbol: ]
+Pop a symbol off the stack: [
+>>>Examine extracted symbol: }
+Pop a symbol off the stack: {
+Stack is empty!
+
+>>>Examine extracted symbol: /
+Push a symbol onto the stack: (
+>>>Examine extracted symbol: h
+>>>Examine extracted symbol: -
+Push a symbol onto the stack: (
+>>>Examine extracted symbol: j
+>>>Examine extracted symbol: -
+Push a symbol onto the stack: (
+>>>Examine extracted symbol: k
+>>>Examine extracted symbol: -
+Push a symbol onto the stack: [
+>>>Examine extracted symbol: l
+>>>Examine extracted symbol: -
+>>>Examine extracted symbol: n
+>>>Examine extracted symbol: ]
+Pop a symbol off the stack: [
+>>>Examine extracted symbol: )
+Pop a symbol off the stack: (
+>>>Examine extracted symbol: )
+Pop a symbol off the stack: (
+>>>Examine extracted symbol: )
+Pop a symbol off the stack: (
+
+For this expression: 
+{x+(y-[a+b])*c-[(d+e)]}/(h-(j-(k-[l-n])))
+Since stack is now empty, this is a valid infix expression.
+

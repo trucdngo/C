@@ -1,0 +1,89 @@
+
+Populating Linked-list...
+50 --> 7 --> 20 --> 60 --> 95 --> 35 --> 15 --> 22 --> 45 --> 58 --> 91 --> 25 --> 100 --> 10 --> 8 --> 73 --> 88 --> 23 --> 41 --> 67 --> 47 --> 4 --> 99 --> 44 --> 65 --> 77 --> 29 --> 51 --> 84 --> 38 --> 62 --> 19 --> 71 --> 33 --> 97 --> 12 --> 85 --> 56 --> 17 --> 49 --> NULL
+
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 1
+49 --> 17 --> 56 --> 85 --> 12 --> 97 --> 33 --> 71 --> 19 --> 62 --> 38 --> 84 --> 51 --> 29 --> 77 --> 65 --> 44 --> 99 --> 4 --> 47 --> 67 --> 41 --> 23 --> 88 --> 73 --> 8 --> 10 --> 100 --> 25 --> 91 --> 58 --> 45 --> 22 --> 15 --> 35 --> 95 --> 60 --> 20 --> 7 --> 50 --> NULL
+
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 71
+71 is deleted
+49 --> 17 --> 56 --> 85 --> 12 --> 97 --> 33 --> 19 --> 62 --> 38 --> 84 --> 51 --> 29 --> 77 --> 65 --> 44 --> 99 --> 4 --> 47 --> 67 --> 41 --> 23 --> 88 --> 73 --> 8 --> 10 --> 100 --> 25 --> 91 --> 58 --> 45 --> 22 --> 15 --> 35 --> 95 --> 60 --> 20 --> 7 --> 50 --> NULL
+
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 51
+51 is deleted
+49 --> 17 --> 56 --> 85 --> 12 --> 97 --> 33 --> 19 --> 62 --> 38 --> 84 --> 29 --> 77 --> 65 --> 44 --> 99 --> 4 --> 47 --> 67 --> 41 --> 23 --> 88 --> 73 --> 8 --> 10 --> 100 --> 25 --> 91 --> 58 --> 45 --> 22 --> 15 --> 35 --> 95 --> 60 --> 20 --> 7 --> 50 --> NULL
+
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 38
+38 is deleted
+49 --> 17 --> 56 --> 85 --> 12 --> 97 --> 33 --> 19 --> 62 --> 84 --> 29 --> 77 --> 65 --> 44 --> 99 --> 4 --> 47 --> 67 --> 41 --> 23 --> 88 --> 73 --> 8 --> 10 --> 100 --> 25 --> 91 --> 58 --> 45 --> 22 --> 15 --> 35 --> 95 --> 60 --> 20 --> 7 --> 50 --> NULL
+
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 5
+5 not found.
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 0
+0 not found.
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 25
+25 is deleted
+49 --> 17 --> 56 --> 85 --> 12 --> 97 --> 33 --> 19 --> 62 --> 84 --> 29 --> 77 --> 65 --> 44 --> 99 --> 4 --> 47 --> 67 --> 41 --> 23 --> 88 --> 73 --> 8 --> 10 --> 100 --> 91 --> 58 --> 45 --> 22 --> 15 --> 35 --> 95 --> 60 --> 20 --> 7 --> 50 --> NULL
+
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 42
+42 not found.
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 32
+32 not found.
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 2
+Enter number to be deleted: 47
+47 is deleted
+49 --> 17 --> 56 --> 85 --> 12 --> 97 --> 33 --> 19 --> 62 --> 84 --> 29 --> 77 --> 65 --> 44 --> 99 --> 4 --> 67 --> 41 --> 23 --> 88 --> 73 --> 8 --> 10 --> 100 --> 91 --> 58 --> 45 --> 22 --> 15 --> 35 --> 95 --> 60 --> 20 --> 7 --> 50 --> NULL
+
+1> to reverse the Linked-list.
+2> to delete an element from the list.
+3> to end.
+
+Enter your choice: 3

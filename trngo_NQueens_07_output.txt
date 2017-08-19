@@ -1,0 +1,176 @@
+
+Starting N-Queens Program:
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 4
+8 Queen Solution: 1 
+
+* * * * Q * * * 
+
+Q * * * * * * * 
+
+* * * Q * * * * 
+
+* * * * * Q * * 
+
+* * * * * * * Q 
+
+* Q * * * * * * 
+
+* * * * * * Q * 
+
+* * Q * * * * * 
+
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 2
+8 Queen Solution: 2 
+
+* * Q * * * * * 
+
+Q * * * * * * * 
+
+* * * * * * Q * 
+
+* * * * Q * * * 
+
+* * * * * * * Q 
+
+* Q * * * * * * 
+
+* * * Q * * * * 
+
+* * * * * Q * * 
+
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 9
+9 is invalid Queen position.
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 6
+8 Queen Solution: 3 
+
+* * * * * * Q * 
+
+Q * * * * * * * 
+
+* * Q * * * * * 
+
+* * * * * * * Q 
+
+* * * * * Q * * 
+
+* * * Q * * * * 
+
+* Q * * * * * * 
+
+* * * * Q * * * 
+
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 3
+8 Queen Solution: 4 
+
+* * * Q * * * * 
+
+Q * * * * * * * 
+
+* * * * Q * * * 
+
+* * * * * * * Q 
+
+* Q * * * * * * 
+
+* * * * * * Q * 
+
+* * Q * * * * * 
+
+* * * * * Q * * 
+
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 0
+8 Queen Solution: 5 
+
+Q * * * * * * * 
+
+* * * * Q * * * 
+
+* * * * * * * Q 
+
+* * * * * Q * * 
+
+* * Q * * * * * 
+
+* * * * * * Q * 
+
+* Q * * * * * * 
+
+* * * Q * * * * 
+
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 5
+8 Queen Solution: 6 
+
+* * * * * Q * * 
+
+Q * * * * * * * 
+
+* * * * Q * * * 
+
+* Q * * * * * * 
+
+* * * * * * * Q 
+
+* * Q * * * * * 
+
+* * * * * * Q * 
+
+* * * Q * * * * 
+
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 1
+8 Queen Solution: 7 
+
+* Q * * * * * * 
+
+* * * Q * * * * 
+
+* * * * * Q * * 
+
+* * * * * * * Q 
+
+* * Q * * * * * 
+
+Q * * * * * * * 
+
+* * * * * * Q * 
+
+* * * * Q * * * 
+
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: 7
+8 Queen Solution: 8 
+
+* * * * * * * Q 
+
+* Q * * * * * * 
+
+* * * Q * * * * 
+
+Q * * * * * * * 
+
+* * * * * * Q * 
+
+* * * * Q * * * 
+
+* * Q * * * * * 
+
+* * * * * Q * * 
+
+
+Enter -1 to exit
+Place the first Queen row in any column[0 to 7]: -1

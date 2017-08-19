@@ -1,0 +1,422 @@
+
+
+Tic Tac Toe Game
+     0   1   2   3 
+ 0 |   |   |   |   |
+
+ 1 |   |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   |   |
+
+ 1 |   |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 3
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 |   |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 1
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 | x |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 1
+Col = 3
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 | x |   |   | O |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 2
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 | x |   |   | O |
+
+ 2 | x |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 2
+Col = 3
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 | x |   |   | O |
+
+ 2 | x |   |   | O |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 3
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 | x |   |   | O |
+
+ 2 | x |   |   | O |
+
+ 3 | x |   |   |   |
+
+Player1 Wins
+
+Do you want to play another game (-1 to quit; 1 to continue): 1
+
+
+Tic Tac Toe Game
+     0   1   2   3 
+ 0 |   |   |   |   |
+
+ 1 |   |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   |   |
+
+ 1 |   |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 3
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 |   |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 1
+Col = 1
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 |   | x |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 1
+Col = 2
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 |   | x | O |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 3
+Col = 3
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 |   | x | O |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   | x |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 2
+Col = 1
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 |   | x | O |   |
+
+ 2 |   | O |   |   |
+
+ 3 |   |   |   | x |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 1
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 | x | x | O |   |
+
+ 2 |   | O |   |   |
+
+ 3 |   |   |   | x |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 3
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   | O |
+
+ 1 | x | x | O |   |
+
+ 2 |   | O |   |   |
+
+ 3 | O |   |   | x |
+
+Player2 Wins
+
+Do you want to play another game (-1 to quit; 1 to continue): 1
+
+
+Tic Tac Toe Game
+     0   1   2   3 
+ 0 |   |   |   |   |
+
+ 1 |   |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   |   |
+
+ 1 |   |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 1
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   |   |
+
+ 1 | O |   |   |   |
+
+ 2 |   |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 2
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   |   |
+
+ 1 | O |   |   |   |
+
+ 2 | x |   |   |   |
+
+ 3 |   |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 3
+Col = 0
+     0   1   2   3 
+ 0 | x |   |   |   |
+
+ 1 | O |   |   |   |
+
+ 2 | x |   |   |   |
+
+ 3 | O |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 1
+     0   1   2   3 
+ 0 | x | x |   |   |
+
+ 1 | O |   |   |   |
+
+ 2 | x |   |   |   |
+
+ 3 | O |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 1
+Invalid index or Cell is already used.  Enter another location: 
+Row = 1
+Col = 1
+     0   1   2   3 
+ 0 | x | x |   |   |
+
+ 1 | O | O |   |   |
+
+ 2 | x |   |   |   |
+
+ 3 | O |   |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 2
+Col = 1
+     0   1   2   3 
+ 0 | x | x |   |   |
+
+ 1 | O | O |   |   |
+
+ 2 | x | x |   |   |
+
+ 3 | O |   |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 3
+Col = 1
+     0   1   2   3 
+ 0 | x | x |   |   |
+
+ 1 | O | O |   |   |
+
+ 2 | x | x |   |   |
+
+ 3 | O | O |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 1
+Col = 2
+     0   1   2   3 
+ 0 | x | x |   |   |
+
+ 1 | O | O | x |   |
+
+ 2 | x | x |   |   |
+
+ 3 | O | O |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 2
+     0   1   2   3 
+ 0 | x | x | O |   |
+
+ 1 | O | O | x |   |
+
+ 2 | x | x |   |   |
+
+ 3 | O | O |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 2
+Col = 2
+     0   1   2   3 
+ 0 | x | x | O |   |
+
+ 1 | O | O | x |   |
+
+ 2 | x | x | x |   |
+
+ 3 | O | O |   |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 2
+Col = 3
+     0   1   2   3 
+ 0 | x | x | O |   |
+
+ 1 | O | O | x |   |
+
+ 2 | x | x | x | O |
+
+ 3 | O | O |   |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 3
+Col = 2
+     0   1   2   3 
+ 0 | x | x | O |   |
+
+ 1 | O | O | x |   |
+
+ 2 | x | x | x | O |
+
+ 3 | O | O | x |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 0
+Col = 3
+     0   1   2   3 
+ 0 | x | x | O | O |
+
+ 1 | O | O | x |   |
+
+ 2 | x | x | x | O |
+
+ 3 | O | O | x |   |
+
+Player1: your turn.  Please enter location [row][column]: 
+Row = 1
+Col = 3
+     0   1   2   3 
+ 0 | x | x | O | O |
+
+ 1 | O | O | x | x |
+
+ 2 | x | x | x | O |
+
+ 3 | O | O | x |   |
+
+Player2: your turn.  Please enter location [row][column]: 
+Row = 3
+Col = 3
+     0   1   2   3 
+ 0 | x | x | O | O |
+
+ 1 | O | O | x | x |
+
+ 2 | x | x | x | O |
+
+ 3 | O | O | x | O |
+
+Game is tied.
+
+Do you want to play another game (-1 to quit; 1 to continue): -1
+
+Good Bye.

@@ -1,0 +1,38 @@
+
+Program to convert INFIX expression to POSTFIX expression and PREFIX expression
+
+The infix expression is: (25%7*8)/(75/5-8+(2^4-(2^2+16)+16-3)+5-3^2)
+***********************Infix to Postfix******************************
+
+These operands will be converted <en-coded> during conversion:
+25 + '0' to become 73 which has ASCII value of 'I'
+75 + '0' to become 123 which has ASCII value of '{'
+16 + '0' to become 64 which has ASCII value of '@'
+
+The <en-coded> infix expression is: (I%7*8)/({/5-8+(2^4-(2^2+@)+@-3)+5-3^2)
+The <en-coded> postfix expression is: I7%8*{5/8-24^22^@+-@+3-+5+32^-/
+
+Now evaluate the postfix expression.  The result is: 2.67
+These operands were de-coded during conversion:
+'I' which has value of 73, after subtracted by '0', it becomes 25
+'{' which has value of 123, after subtracted by '0', it becomes 75
+'@' which has value of 64, after subtracted by '0', it becomes 16
+
+***********************Infix to Prefix***********************************
+
+These operands will be converted <en-coded> during conversion:
+25 + '0' to become 73 which has ASCII value of 'I'
+75 + '0' to become 123 which has ASCII value of '{'
+16 + '0' to become 64 which has ASCII value of '@'
+
+The <en-coded> infix expression is: (I%7*8)/({/5-8+(2^4-(2^2+@)+@-3)+5-3^2)
+The <en-coded> prefix expression is: /*%I78-++-/{58-+-^24+^22@@35^32
+
+Now evaluate the prefix expression.  The result is: 2.67
+These operands were de-coded during conversion:
+'I' which has value of 73, after subtracted by '0', it becomes 25
+'{' which has value of 123, after subtracted by '0', it becomes 75
+'@' which has value of 64, after subtracted by '0', it becomes 16
+
+Evaluation result for Postfix and Prefix should be the same
+

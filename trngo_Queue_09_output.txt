@@ -1,0 +1,57 @@
+Reading Input File: exercise_Queue_09_input.txt
+Choice:   E   E   E   E   E   D   D   D   E   E   D   D   E 
+Data:    25  37  45  52  98              36  12          69 
+
+After Enqueue: 25
+   0 
+  25 
+
+After Enqueue: 37
+   0 <-   1 
+  25 <-  37 
+
+After Enqueue: 45
+   0 <-   1 <-   2 
+  25 <-  37 <-  45 
+
+After Enqueue: 52
+   0 <-   1 <-   2 <-   3 
+  25 <-  37 <-  45 <-  52 
+
+After Enqueue: 98
+   0 <-   1 <-   2 <-   3 <-   4 
+  25 <-  37 <-  45 <-  52 <-  98 
+
+After Dequeue: 25
+   1 <-   2 <-   3 <-   4 
+  37 <-  45 <-  52 <-  98 
+
+After Dequeue: 37
+   2 <-   3 <-   4 
+  45 <-  52 <-  98 
+
+After Dequeue: 45
+   3 <-   4 
+  52 <-  98 
+
+After Enqueue: 36
+   3 <-   4 <-   5 
+  52 <-  98 <-  36 
+
+After Enqueue: 12
+   3 <-   4 <-   5 <-   6 
+  52 <-  98 <-  36 <-  12 
+
+After Dequeue: 52
+   4 <-   5 <-   6 
+  98 <-  36 <-  12 
+
+After Dequeue: 98
+   5 <-   6 
+  36 <-  12 
+
+After Enqueue: 69
+   5 <-   6 <-   7 
+  36 <-  12 <-  69 
+
+End of Simulation for queue.

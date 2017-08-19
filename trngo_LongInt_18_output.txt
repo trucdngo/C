@@ -1,0 +1,57 @@
+Number of zeros for first Node of Linked-list for integer 1 = 0
+Number of zeros for first Node of Linked-list for integer 2 = 2
+
+Integer 1 as linked-list (in reversed order)
+9456 --> 4478 --> 7765 --> 5129 --> 3884 --> 1962 --> 3371 --> 1297 --> 5685 --> 5257 --> 8032 --> 9546 --> NULL
+
+Integer 2 as linked-list (in reversed order)
+6234 --> 2345 --> 4635 --> 698 --> 9721 --> 8354 --> 7936 --> 6425 --> 3245 --> 64 --> NULL
+
+
+Adding nodes 9456 and 6234 and insert this < SUM > to the new linked-list
+5690 --> NULL
+
+
+Adding nodes 4478 and 2345 and insert this < SUM > to the new linked-list
+6824 --> 5690 --> NULL
+
+
+Adding nodes 7765 and 4635 and insert this < SUM > to the new linked-list
+2400 --> 6824 --> 5690 --> NULL
+
+
+Adding nodes 5129 and 698 and insert this < SUM > to the new linked-list
+5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+
+Adding nodes 3884 and 9721 and insert this < SUM > to the new linked-list
+3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+
+Adding nodes 1962 and 8354 and insert this < SUM > to the new linked-list
+317 --> 3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+
+Adding nodes 3371 and 7936 and insert this < SUM > to the new linked-list
+1308 --> 317 --> 3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+
+Adding nodes 1297 and 6425 and insert this < SUM > to the new linked-list
+7723 --> 1308 --> 317 --> 3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+
+Adding nodes 5685 and 3245 and insert this < SUM > to the new linked-list
+8930 --> 7723 --> 1308 --> 317 --> 3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+
+Adding nodes 5257 and 64 and insert this < SUM > to the new linked-list
+5321 --> 8930 --> 7723 --> 1308 --> 317 --> 3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+8032 --> 5321 --> 8930 --> 7723 --> 1308 --> 317 --> 3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+9546 --> 8032 --> 5321 --> 8930 --> 7723 --> 1308 --> 317 --> 3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+9546 --> 8032 --> 5321 --> 8930 --> 7723 --> 1308 --> 317 --> 3605 --> 5828 --> 2400 --> 6824 --> 5690 --> NULL
+
+Sum of two integers:
+954680325321893077231308031736055828240068245690

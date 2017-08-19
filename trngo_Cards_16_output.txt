@@ -1,0 +1,295 @@
+
+Sequencing cards simulation program
+
+Choose data file to simulate sequencing card {1, 2} <<< -1 to quit>>>: 1
+************************************************************************
+
+Original cards in order:
+
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11<- 12
+value:   A<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<-  J<-  Q<-  K
+
+After first shuffle (Array -> Queue)
+
+index:  13<- 14<- 15<- 16<- 17<- 18<- 19<- 20<- 21<- 22<- 23<- 24<- 25
+value:  10<-  6<-  K<-  5<-  9<-  4<-  J<-  3<-  8<-  2<-  Q<-  A<-  7
+
+After second shuffle (Queue -> Stack)
+
+index:  12<- 11<- 10<-  9<-  8<-  7<-  6<-  5<-  4<-  3<-  2<-  1<-  0
+value:   7<-  A<-  Q<-  2<-  8<-  3<-  J<-  4<-  9<-  5<-  K<-  6<- 10
+
+Now doing the third shuffle (Stack -> Queue -> Queue)
+
+Shuffle cards...
+
+Remove card: (7), then Insert card (7) to the rear
+index:   1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11<- 12<- 13
+value:   A<-  Q<-  2<-  8<-  3<-  J<-  4<-  9<-  5<-  K<-  6<- 10<-  7
+
+*** Then remove card (A) and show this card on table *****
+index:   0
+value:   A
+
+Shuffle cards...
+
+Remove card: (Q), then Insert card (Q) to the rear
+index:   3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11<- 12<- 13<- 14
+value:   2<-  8<-  3<-  J<-  4<-  9<-  5<-  K<-  6<- 10<-  7<-  Q
+
+*** Then remove card (2) and show this card on table *****
+index:   0<-  1
+value:   A<-  2
+
+Shuffle cards...
+
+Remove card: (8), then Insert card (8) to the rear
+index:   5<-  6<-  7<-  8<-  9<- 10<- 11<- 12<- 13<- 14<- 15
+value:   3<-  J<-  4<-  9<-  5<-  K<-  6<- 10<-  7<-  Q<-  8
+
+*** Then remove card (3) and show this card on table *****
+index:   0<-  1<-  2
+value:   A<-  2<-  3
+
+Shuffle cards...
+
+Remove card: (J), then Insert card (J) to the rear
+index:   7<-  8<-  9<- 10<- 11<- 12<- 13<- 14<- 15<- 16
+value:   4<-  9<-  5<-  K<-  6<- 10<-  7<-  Q<-  8<-  J
+
+*** Then remove card (4) and show this card on table *****
+index:   0<-  1<-  2<-  3
+value:   A<-  2<-  3<-  4
+
+Shuffle cards...
+
+Remove card: (9), then Insert card (9) to the rear
+index:   9<- 10<- 11<- 12<- 13<- 14<- 15<- 16<- 17
+value:   5<-  K<-  6<- 10<-  7<-  Q<-  8<-  J<-  9
+
+*** Then remove card (5) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4
+value:   A<-  2<-  3<-  4<-  5
+
+Shuffle cards...
+
+Remove card: (K), then Insert card (K) to the rear
+index:  11<- 12<- 13<- 14<- 15<- 16<- 17<- 18
+value:   6<- 10<-  7<-  Q<-  8<-  J<-  9<-  K
+
+*** Then remove card (6) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5
+value:   A<-  2<-  3<-  4<-  5<-  6
+
+Shuffle cards...
+
+Remove card: (10), then Insert card (10) to the rear
+index:  13<- 14<- 15<- 16<- 17<- 18<- 19
+value:   7<-  Q<-  8<-  J<-  9<-  K<- 10
+
+*** Then remove card (7) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6
+value:   A<-  2<-  3<-  4<-  5<-  6<-  7
+
+Shuffle cards...
+
+Remove card: (Q), then Insert card (Q) to the rear
+index:  15<- 16<- 17<- 18<- 19<- 20
+value:   8<-  J<-  9<-  K<- 10<-  Q
+
+*** Then remove card (8) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7
+value:   A<-  2<-  3<-  4<-  5<-  6<-  7<-  8
+
+Shuffle cards...
+
+Remove card: (J), then Insert card (J) to the rear
+index:  17<- 18<- 19<- 20<- 21
+value:   9<-  K<- 10<-  Q<-  J
+
+*** Then remove card (9) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8
+value:   A<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9
+
+Shuffle cards...
+
+Remove card: (K), then Insert card (K) to the rear
+index:  19<- 20<- 21<- 22
+value:  10<-  Q<-  J<-  K
+
+*** Then remove card (10) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9
+value:   A<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10
+
+Shuffle cards...
+
+Remove card: (Q), then Insert card (Q) to the rear
+index:  21<- 22<- 23
+value:   J<-  K<-  Q
+
+*** Then remove card (J) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10
+value:   A<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<-  J
+
+Shuffle cards...
+
+Remove card: (K), then Insert card (K) to the rear
+index:  23<- 24
+value:   Q<-  K
+
+*** Then remove card (Q) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11
+value:   A<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<-  J<-  Q
+
+(K) is the last card. Remove card: (K) from deck
+***** Show this card (K) on table
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11<- 12
+value:   A<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<-  J<-  Q<-  K
+
+Choose data file to simulate sequencing card {1, 2} <<< -1 to quit>>>: 2
+************************************************************************
+
+Original cards in order:
+
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11<- 12
+value:   Q<-  2<-  3<-  A<-  5<-  6<-  J<-  8<-  9<-  4<-  7<-  K<- 10
+
+After first shuffle (Array -> Queue)
+
+index:  13<- 14<- 15<- 16<- 17<- 18<- 19<- 20<- 21<- 22<- 23<- 24<- 25
+value:   4<-  6<- 10<-  5<-  9<-  A<-  7<-  3<-  8<-  2<-  K<-  Q<-  J
+
+After second shuffle (Queue -> Stack)
+
+index:  12<- 11<- 10<-  9<-  8<-  7<-  6<-  5<-  4<-  3<-  2<-  1<-  0
+value:   J<-  Q<-  K<-  2<-  8<-  3<-  7<-  A<-  9<-  5<- 10<-  6<-  4
+
+Now doing the third shuffle (Stack -> Queue -> Queue)
+
+Shuffle cards...
+
+Remove card: (J), then Insert card (J) to the rear
+index:   1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11<- 12<- 13
+value:   Q<-  K<-  2<-  8<-  3<-  7<-  A<-  9<-  5<- 10<-  6<-  4<-  J
+
+*** Then remove card (Q) and show this card on table *****
+index:   0
+value:   Q
+
+Shuffle cards...
+
+Remove card: (K), then Insert card (K) to the rear
+index:   3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11<- 12<- 13<- 14
+value:   2<-  8<-  3<-  7<-  A<-  9<-  5<- 10<-  6<-  4<-  J<-  K
+
+*** Then remove card (2) and show this card on table *****
+index:   0<-  1
+value:   Q<-  2
+
+Shuffle cards...
+
+Remove card: (8), then Insert card (8) to the rear
+index:   5<-  6<-  7<-  8<-  9<- 10<- 11<- 12<- 13<- 14<- 15
+value:   3<-  7<-  A<-  9<-  5<- 10<-  6<-  4<-  J<-  K<-  8
+
+*** Then remove card (3) and show this card on table *****
+index:   0<-  1<-  2
+value:   Q<-  2<-  3
+
+Shuffle cards...
+
+Remove card: (7), then Insert card (7) to the rear
+index:   7<-  8<-  9<- 10<- 11<- 12<- 13<- 14<- 15<- 16
+value:   A<-  9<-  5<- 10<-  6<-  4<-  J<-  K<-  8<-  7
+
+*** Then remove card (A) and show this card on table *****
+index:   0<-  1<-  2<-  3
+value:   Q<-  2<-  3<-  A
+
+Shuffle cards...
+
+Remove card: (9), then Insert card (9) to the rear
+index:   9<- 10<- 11<- 12<- 13<- 14<- 15<- 16<- 17
+value:   5<- 10<-  6<-  4<-  J<-  K<-  8<-  7<-  9
+
+*** Then remove card (5) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4
+value:   Q<-  2<-  3<-  A<-  5
+
+Shuffle cards...
+
+Remove card: (10), then Insert card (10) to the rear
+index:  11<- 12<- 13<- 14<- 15<- 16<- 17<- 18
+value:   6<-  4<-  J<-  K<-  8<-  7<-  9<- 10
+
+*** Then remove card (6) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5
+value:   Q<-  2<-  3<-  A<-  5<-  6
+
+Shuffle cards...
+
+Remove card: (4), then Insert card (4) to the rear
+index:  13<- 14<- 15<- 16<- 17<- 18<- 19
+value:   J<-  K<-  8<-  7<-  9<- 10<-  4
+
+*** Then remove card (J) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6
+value:   Q<-  2<-  3<-  A<-  5<-  6<-  J
+
+Shuffle cards...
+
+Remove card: (K), then Insert card (K) to the rear
+index:  15<- 16<- 17<- 18<- 19<- 20
+value:   8<-  7<-  9<- 10<-  4<-  K
+
+*** Then remove card (8) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7
+value:   Q<-  2<-  3<-  A<-  5<-  6<-  J<-  8
+
+Shuffle cards...
+
+Remove card: (7), then Insert card (7) to the rear
+index:  17<- 18<- 19<- 20<- 21
+value:   9<- 10<-  4<-  K<-  7
+
+*** Then remove card (9) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8
+value:   Q<-  2<-  3<-  A<-  5<-  6<-  J<-  8<-  9
+
+Shuffle cards...
+
+Remove card: (10), then Insert card (10) to the rear
+index:  19<- 20<- 21<- 22
+value:   4<-  K<-  7<- 10
+
+*** Then remove card (4) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9
+value:   Q<-  2<-  3<-  A<-  5<-  6<-  J<-  8<-  9<-  4
+
+Shuffle cards...
+
+Remove card: (K), then Insert card (K) to the rear
+index:  21<- 22<- 23
+value:   7<- 10<-  K
+
+*** Then remove card (7) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10
+value:   Q<-  2<-  3<-  A<-  5<-  6<-  J<-  8<-  9<-  4<-  7
+
+Shuffle cards...
+
+Remove card: (10), then Insert card (10) to the rear
+index:  23<- 24
+value:   K<- 10
+
+*** Then remove card (K) and show this card on table *****
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11
+value:   Q<-  2<-  3<-  A<-  5<-  6<-  J<-  8<-  9<-  4<-  7<-  K
+
+(10) is the last card. Remove card: (10) from deck
+***** Show this card (10) on table
+index:   0<-  1<-  2<-  3<-  4<-  5<-  6<-  7<-  8<-  9<- 10<- 11<- 12
+value:   Q<-  2<-  3<-  A<-  5<-  6<-  J<-  8<-  9<-  4<-  7<-  K<- 10
+
+Choose data file to simulate sequencing card {1, 2} <<< -1 to quit>>>: -1
+************************************************************************
